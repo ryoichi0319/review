@@ -9,20 +9,22 @@ import Callback from "./Callback"
 import Time from "./Time"
 import Img from "./Img";
 import Callback2 from "./Callback2";
+import Map from "./Map";
 export default function App() {
   return (
     <div className="App">
-      {/* <DndProvider backend={HTML5Backend}> */}
-        {/* <Example />
-        <Download />
+      <DndProvider backend={HTML5Backend}>
+        <Example />
+        {/* <Download />
         <Canvas /> */}
 
         {/* <Callback /> */}
         {/* <Time /> */}
-      {/* </DndProvider> */}
+      </DndProvider>
       {/* <Img />
       <Callback2 /> */}
-      <App />
+      <Map />
+      
 
 
       {/* <A /> */}
