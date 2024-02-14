@@ -1,26 +1,31 @@
-import React from 'react';
-import logo from './logo.svg';
-import './App.css';
-
-function App() {
+import React from "react";
+import { DndProvider } from "react-dnd";
+import { HTML5Backend } from "react-dnd-html5-backend";
+import { Example } from "./Example";
+import A from "./a"
+import Download from "./Download";
+import Canvas from "./Canvas";
+import Callback from "./Callback"
+import Time from "./Time"
+import Img from "./Img";
+import Callback2 from "./Callback2";
+export default function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.tsx</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      {/* <DndProvider backend={HTML5Backend}> */}
+        {/* <Example />
+        <Download />
+        <Canvas /> */}
+
+        {/* <Callback /> */}
+        {/* <Time /> */}
+      {/* </DndProvider> */}
+      {/* <Img />
+      <Callback2 /> */}
+      <App />
+
+
+      {/* <A /> */}
     </div>
   );
 }
-
-export default App;
